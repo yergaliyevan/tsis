@@ -1,3 +1,5 @@
+#ex1
 print("hello world")
-x=5
-print(x)
+#ex2
+if 5 > 2:
+   print("YES")
