@@ -1,17 +1,17 @@
-def aaa(f):
+def a(f):
     listtof=[1, 2, 3]
 
     with open(f, "a") as file:
         file.write(", ".join(str(i) for i in listtof))
 
 
-def bbb(f):
+def b(f):
     with open(f, "r") as file:
         print(file.read())
 
 
-filename="C:\\Users\\gulbe\\OneDrive\\Рабочий стол\\PP2\\lab6\\dir\\dir4text.txt"
+filename="/Users/mwtl2rua/workspace/1lab/lab6/dirandfile/t.txt"
 
-aaa(filename)
+a(filename)
 
-bbb(filename)
+b(filename)
